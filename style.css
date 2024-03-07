@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'FonteH1';
+    src: url(./glamour_karlina/Glamour\ Karlina.woff) format('woff');
+}
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -47,11 +52,27 @@ footer {
     height: auto;
 }
 
-@font-face {
-    font-family: 'FonteH1';
-    src: url(./glamour_karlina/Glamour\ Karlina.woff) format('woff');
-}
+
 
 .minha-fonte {
     font-family: 'FonteH1', sans-serif;
 }
+
+@import url(https://db.onlinewebfonts.com/c/cf3b1825f5b015ebd8dcdc3e97ac129c?family=Fugue+Regular);
+
+h2 {
+    font-family: "Fugue Regular";
+    color:rgb(205, 167, 147);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 54px;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+.mano {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+}
+
